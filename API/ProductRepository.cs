@@ -3,7 +3,7 @@ using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-public class ProductRepository(StoreContex context) : IProductRepository
+public class ProductRepository(StoreContext context) : IProductRepository
 {
     public void AddProduct(Product product)
     {
